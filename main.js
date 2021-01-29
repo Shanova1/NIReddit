@@ -1,5 +1,5 @@
 // define how many posts
-const numOfPosts = 10;
+const numOfPosts = 15;
 
 // function to get top numOfPosts posts from Reddit.com API (posts are called children)
 const getRawData = async () => {
