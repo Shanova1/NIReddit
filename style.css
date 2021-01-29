@@ -1,0 +1,85 @@
+body {
+  background-color: rgb(255, 235, 204);
+}
+
+h1 {
+  background-color: rgb(255, 193, 78);
+  color: white;
+  font-size: 55px;
+  text-shadow: 2px 2px 5px rgb(255, 234, 207);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+h2 {
+  /* background-color: white; */
+  font-size: 25px;
+  font-family: Stencil Std, fantasy;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: Verdana, Geneva, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h4 {
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgb(255, 123, 0);
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+p {
+  font-size: 25px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  overflow: visible;
+}
+
+.nirPic {
+  text-align: center;
+}
+
+.posts {
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: inline-flex;
+  font-weight: bold;
+}
+
+.posts-pic {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: inline-flex;
+    font-weight: bold;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+  }
+
+.number {
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.posts-container {
+  margin-bottom: 25px;
+  background-color: rgb(253, 238, 219);
+}
